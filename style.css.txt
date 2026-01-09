@@ -1,0 +1,21 @@
+       #titulo {
+         display: block
+       }
+
+       #texto {
+           display: block
+       }
+        
+       .butom {
+           padding: 3px;
+           margin: 10px 0;
+       }
+       
+       #postagem-titulo {
+           font-size: 25px
+       }
+
+       #postagem-conteudo {
+           font-weight: normal;
+           font-size: 15px;
+       }

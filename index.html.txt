@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <form id="postagem-usuario">
+        <label for="titulo">Título</label>
+        <input id="titulo" type="text" value="" placeholder="Escreva seu título">
+        <label for="texto">Texto</label>
+        <input id="texto" type="text" value="" placeholder="Conteudo da postagem">
+        <input type="submit" id="botao-publicar" value="Renderizar" class="butom">
+    </form>
+    <hr/>
+    <h3 id="postagem-titulo"></h3>
+    <p id="postagem-conteudo"></p>
+  </main>
+    <script src="script.js"></script>
+</body>
+</html>
