@@ -21,7 +21,9 @@
 }
 
 #cabecalho {
+       display: block;
        text-align: center;
 }
+
 
 
